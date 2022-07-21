@@ -140,6 +140,9 @@ def GetNonDoubleNum(arr):
             d2[el] += 1
     return list(d1.keys())
 
+
+
+
 def GetMultipliers(N:int):
     r = 0
     min_ = 100000
@@ -156,5 +159,16 @@ def GetMultipliers(N:int):
     return [r, round(N / r, 15)]
 
 
+def GetSimpleValues(max_value:int):
+    delim = []
+    for e in range(2, max_value + 1):
+        if len(delim) == 0:
+            delim.append(e)
+        elif len([d for d in delim if e % d == 0]) == 0:
+            delim.append(e)
+    return delim
+
+
 def GetMulti(N:int):
-    return [e for e in range(1+1, N) if N % e == 0]
+    return [m for m in GetSimpleValues(N) if N % m == 0]
+
