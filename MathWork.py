@@ -95,7 +95,66 @@ def TwoDirectionalFibbonachi(val:int):
 
 
 
+def SumRamandgan(epoch_k:int):
+    return sum([(factorial(4*k)/(factorial(k)**4))*abs(1103+26390*k)/((4*99)**(4*k)) for k in range(epoch_k)])
 
 
+def factorial(n:int) -> int:
+    fact = 1
+    for num in range(2, n + 1):
+        fact *= num
+    return fact
 
 
+def get_count(val:float):
+    s = str(val)
+    pos = position_delimiter(s)
+    return len(s[pos+1:])
+
+
+def position_delimiter(val:str) -> int:
+    pos = 0
+    for pos in range(len(val)):
+        if val[pos] in [',', '.']:
+            break
+    return pos
+
+
+def Pi(round:float = 0.000000000000001) -> float:
+    val = 9801 / (2 * (2 ** 0.5) * SumRamandgan(3))
+    s = str(val)
+    pos = position_delimiter(s)
+    return float(s[:pos+get_count(round)+1])
+
+
+def GetNonDoubleNum(arr):
+    d1 = {}
+    d2 = {}
+    for el in arr:
+        if el in d1.keys():
+            d2[el] = 1
+            d1.pop(el)
+        elif el not in d2.keys():
+            d1[el] = 1
+        else:
+            d2[el] += 1
+    return list(d1.keys())
+
+def GetMultipliers(N:int):
+    r = 0
+    min_ = 100000
+    for i in range(1+1, N-1):
+        val = N % i
+        if val == 1:
+            r = i
+            break
+
+        elif min_ > val:
+            r = i
+            min_ = val
+
+    return [r, round(N / r, 15)]
+
+
+def GetMulti(N:int):
+    return [e for e in range(1+1, N) if N % e == 0]
