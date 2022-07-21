@@ -78,11 +78,11 @@ def fibbonach_neg(val:int):
     arr = [0, -1]
     yield arr[0]
     if val > 0:
-        yield arr[1]
-        for _ in range(val-1):
+        yield arr[1] * -1
+        for idx, _ in enumerate(range(val-1)):
             tmp = arr[0] + arr[1]
             arr[0], arr[1] = arr[1], tmp
-            yield tmp
+            yield tmp  if idx % 2 == 0 else tmp * -1
 
 
 def TwoDirectionalFibbonachi(val:int):
