@@ -1,0 +1,542 @@
+Ада
+Алгол
+Алгол 68
+Аналитик
+АПЛ
+АФС
+Бейсик
+Би
+Глагол
+ДРАКОН
+Кларион
+КОБОЛ
+Компонентный Паскаль
+КуМир
+Лисп
+Лого
+Миранда
+Модула-2
+Модула-3
+Оберон
+Паскаль
+Перл
+ПЛ/1
+Планкалкюль
+Пролог
+Робик
+Рапира
+РЕФАЛ
+Сетл
+Си
+Симула
+Снобол
+Фортран
+Фокал
+Форт
+Эйфель
+A+
+A++
+A# .NET
+A# (Axiom)
+A-0
+ABAP
+ABC
+ABC ALGOL
+ABLE
+ABSET
+ABSYS
+ACC
+Accent
+ActionScript
+Ace DASL
+ACT-III
+AppleScript
+AMOS
+ARC
+AutoHotkey
+AutoIt
+AWK
+AWL
+Bash
+bc
+BCPL
+BeanShell
+BETA
+Bigwig
+Bistro
+BLISS
+Blitz Basic
+Blue
+Boo
+Bourne shell
+BPEL — Business Process Execution Language
+Brainfuck
+BUGSYS
+BuildProfessional
+BYOND
+С
+C--
+C++ — ISO/IEC 14882
+C# — ISO/IEC 23270
+C shell (csh)
+Caché ObjectScript — См. также Caché Basic
+Caml
+Cat
+Cayenne
+Cecil
+Cesil
+CFML
+Cg
+Ch interpreter (C/C++ интерпретатор Ch)
+Chapel
+CHAIN
+Charity
+Chef
+CHILL
+CHIP-8
+chomski
+Chrome
+ChucK
+Cilk
+CICS
+CL
+Clarion
+Clean
+Clipper
+CLIST
+Clojure
+CLU
+CMS-2
+CobolScript
+Cobra
+CODE
+ColdFusion
+COMAL
+Common Intermediate Language (CIL)
+Common Lisp
+COMIT
+Concurrent Clean
+Constraint Handling Rules
+Converge
+CORAL66
+CorVision
+COWSEL
+CPL
+CSS
+CSP
+Csound
+Curl
+Curry
+Cyclone
+D
+Dao
+DASL - Distributed Application Specification Language
+DASL — Datapoint’s Advanced Systems Language
+DarkBASIC
+DarkBASIC Professional
+Dataflex
+Datalog
+dBASE
+dc
+Deesel (прежний G)
+Delphi
+Dialect
+DinkC
+DCL
+Dialog Manager
+DIBOL
+DL/I
+Dylan
+E
+Ease
+EASY
+Easy PL/I
+EASYTRIEVE PLUS
+ECMAScript
+Edinburgh IMP
+Einstein
+Elan
+Elena
+Emacs Lisp
+EGL Programming Language (EGL)
+Epigram
+Erlang
+Escapade — программирование сервера
+Esterel
+Euclid
+Euphoria
+Euler
+EXEC
+EXEC2
+F
+F#
+Factor
+Falcon
+Fan
+Felix
+Ferite
+F#
+Fjölnir
+FL
+FLOW-MATIC
+FOCUS
+FOIL
+FORMAC
+Formula language
+Forth
+Fortran — ISO/IEC 1539
+Fortress
+FoxPro
+FP
+Franz Lisp
+Frink
+F-Script
+Fuxi Programming Language
+GM
+GAP
+Gambas
+Game Maker Language
+G-code
+General Algebraic Modeling System
+Generic Java
+Gibiane
+G (LabVIEW)
+Gödel
+Godiva
+Go
+GOTRAN (см. IBM 1620)
+GPSS
+GraphTalk
+GRASS
+Green
+Groovy
+HAL/S
+HAScript
+Haskell
+HaXe
+High Level Assembly
+Hop
+html
+HyperTalk
+IBM Basic assembly language
+IBM RPG
+ICI
+Icon
+IDL
+Idle
+IMP
+Inform
+Information Processing Language (IPL)
+Informix-4GL
+Io
+IPTSCRAE
+Interactive System Productivity Facility
+Ivy
+J
+J#
+J++
+JADE
+Jal
+Janus
+JASS
+Java
+JavaScript
+JCL
+Join Java
+JOSS
+Joule
+JOVIAL
+Joy
+JScript
+JSP
+Java EE
+Java ME
+K
+KEE
+Kiev
+Korn Shell
+Kite
+KRC
+KRYPTON
+L
+LabVIEW
+Ladder
+Lagoona
+LANSA
+Lasso
+Lava
+Leda
+Lead
+Leadwerks Script
+Legoscript
+Lexico
+Liberty BASIC
+Limbo
+Limnor
+LINC
+Lingo
+LISA (Language for Instruction Set Architecture)
+LISP
+Lisaac
+LOLCODE
+LPC
+LSL
+LSE
+Lua
+Lucid
+Lush
+Lustre
+LYaPAS
+M4
+MacRuby
+MAD
+Magik
+Magma
+MapBasic
+Maple
+MAPPER (Unisys/Sperry) сейчас часть BIS
+MARK-IV
+Mary
+Mathematica
+MATLAB
+Maxima (см. также Macsyma)
+MaxScript внутренний язык 3D Studio Max
+Maya (MEL)
+Mercury
+Mesa
+Metalua
+MetaQuotes Language (MQL4/MQL5)
+Michigan Algorithm Decoder см. MAD programming language
+Microcode
+MicroScript
+MillScript
+MIMIC
+Mindscript
+MIVA Script
+ML
+Moby
+Model 204 User Language
+Modula
+Mondrian
+Mortran
+Moto
+MOUSE
+MSIL — отклонённое название для Common Intermediate Language
+MSL
+MUMPS
+Napier88
+Natural
+NEAT
+Nemerle
+NESL
+Net.Data
+NewLISP
+NewtonScript
+NGL
+Nial
+Nice
+Nickle
+Nosica
+Npiet
+NQC
+NXC
+Nu
+NXT-G Lego Mindstorm
+o:XML
+Object Lisp
+ObjectLOGO
+Object Pascal
+Objective-C
+Objective-J
+OCaml (Objective Caml)
+Obliq
+Occam
+occam-π
+Octave
+OmniMark
+Opal
+Open programming language
+OPS5
+ORCA/Modula-2
+Organiser Programming Language (OPL) — сравн. Psion Organiser
+Oxygene
+Oz
+P′′
+Parallel C#
+PARI/GP
+PureBasic
+Parser
+Pawn
+PBASIC
+PCASTL
+PEARL
+Perl Data Language
+PHP
+Phrogram
+Pico
+Piet
+Pike
+PIKT
+PILOT
+Pizza
+PL/0
+PL/8
+PL/B
+PL/C
+PL/M
+PL/P
+PL/SQL
+PLEXIL
+Pliant
+PPL
+POP-11
+PostScript
+PowerBASIC
+Processing
+Prograph
+Progress 4GL
+Turbo Prolog
+Promela
+Protheus
+PRO-IV
+ProvideX
+Python
+Q
+Qi
+QtScript
+QuakeC
+QPL
+R
+R++
+Ratfiv
+Ratfor
+RBScript
+rc
+REBOL
+Redcode
+Reia
+Reilly
+Revolution
+REXX
+Rlab
+Robot Scripting Language (RSL)
+RPG
+RPL
+Ruby
+REALBasic
+S
+S2
+S-PLUS
+S-Lang
+SAIL
+SAM76
+SAS
+Sather
+Scala
+Scheme
+Scilab
+Script.NET
+Sed
+Self
+Shift Script
+SiMPLE
+SIMSCRIPT
+SISAL
+Slate
+SLIP
+SMALL
+Small Basic
+Smalltalk
+SPITBOL
+Snowball
+SNUSP
+SPARK
+Spice
+SPIN
+SP/k
+SP-Forth
+SPS (1620)
+Squeak
+Squirrel
+SR
+SSL
+Standard ML
+SBL Superbase Basic Langauge
+SuperCollider
+Subtext
+Suneido
+SYMPL
+SyncCharts
+SystemVerilog
+T
+TACL
+TACPOL
+TADS
+Tea
+TIE
+Transaction Application Language
+Tcl
+Transact-SQL
+teco
+TELCOMP
+Telon
+Tex — Text Executive Programming Language
+TI-BASIC
+Tom
+TOM
+Topspeed
+tpu
+Trac
+TTCN
+Turbo Pascal
+Turing
+TUTOR
+TXL
+Ubercode
+Unicon
+Uniface
+Unix shell
+Unlambda
+UnrealScript
+Vala
+VBA
+VBScript
+VDM++, VDM-SL
+Verilog
+VHDL
+Visual Assembler
+Visual Basic
+Visual Basic.NET
+Visual DataFlex
+Visual DialogScript
+Visual FoxPro
+Visual J++
+Visual Objects
+Vvvv
+VX-REXX
+Water
+WATFIV, WATFOR
+WebQL
+Whitespace
+Winbatch
+WinDev
+Windows PowerShell
+X++
+X10
+XBL
+xHarbour
+XL
+XOTcl
+XPL
+XPL0
+XQuery
+XSLT — см. XPath
+Y
+YACC
+Yorick
+Z
+Zonnon
+ZOPL
+ZPL
+ZZT-oop
+
