@@ -5,9 +5,7 @@
 #https://zen.yandex.ru/suite/a6424a0f-4fdb-44a1-95a0-9945e6f0a699
 #Это на случай возникновения непонятных символов в файле.
 
-
-def СlearDamagedLines(val:str) -> str:
-    return ' '.join([e for e in val.split(' ') if len([c for c in e if str.isdigit(c)]) == 0])
+from WordsWork import СlearDamagedLines
 
 
 s = 'Мама сшила м0не штаны и7з бере9зовой кор45ы 893.'

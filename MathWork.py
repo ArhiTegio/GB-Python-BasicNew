@@ -1,4 +1,5 @@
 from typing import List, Union
+from itertools import chain
 
 
 def GetSequence(val:int):
@@ -172,3 +173,9 @@ def GetSimpleValues(max_value:int):
 def GetMulti(N:int):
     return [m for m in GetSimpleValues(N) if N % m == 0]
 
+def GetDegree(val, degree):
+    return '' if val == 0 else f'{"" if val == 1 else val}{"x" if degree == 1 else "" if degree == 0 else f"x^{degree}" }'
+
+
+def Divs(val):
+    return chain(*((d, val // d) for d in range(1, int(val ** 0.5) + 1) if val % d == 0))
