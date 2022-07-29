@@ -1,6 +1,52 @@
 from typing import List, Union
 from itertools import chain
 
+class Seq:
+    '''
+    Сформировать список из  N членов последовательности.
+    '''
+    def __init__(self):
+        self.arr = []
+        self.tmp = 0
+
+    def calc(self, idx):
+        if idx == 0:
+            self.tmp = 1
+            return self.tmp
+        else:
+            if self.tmp == 0:
+                self.tmp = self.arr[idx - 1]
+            self.tmp *= -3
+            return self.tmp
+
+    def get_num(self, N:int):
+        if len(self.arr) <= N:
+            self.arr += list(map(lambda idx: self.calc(idx), list(range(len(self.arr), N))))
+            self.tmp = 0
+        return self.arr[:N]
+
+
+def ProductPairsNumbers(arr:List[Union[int, float]]) -> List[Union[int, float]]:
+    '''
+    Найти произведение пар чисел в списке. Парой считаем первый и последний элемент, второй и предпоследний и т.д.
+    :param arr: Список чисел
+    :return: Список произведений
+    '''
+    len_ = int(len(arr) / 2)
+    tmp = arr.copy()
+    tmp.reverse()
+    lst = list(map(lambda x: x[0]*x[1], zip(arr[:len_], tmp[:len_])))
+    return lst
+
+
+def SumListNumbers(arr:List[Union[int, float]]) -> Union[int, float]:
+    '''
+    Найти сумму чисел списка стоящих на нечетной позиции
+    :param arr: Список чисел
+    :return: сумма значени расположенных на нечетных позициях
+    '''
+    return sum(map(lambda x: x[1],filter(lambda x: x[0] % 2 != 0, enumerate(arr))))
+
 
 def GetSequence(val:int):
     arr = []
@@ -122,6 +168,11 @@ def position_delimiter(val:str) -> int:
 
 
 def Pi(round:float = 0.000000000000001) -> float:
+    '''
+    Высичлить Пи
+    :param round: точность округления
+    :return: Пи
+    '''
     val = 9801 / (2 * (2 ** 0.5) * SumRamandgan(3))
     s = str(val)
     pos = position_delimiter(s)
