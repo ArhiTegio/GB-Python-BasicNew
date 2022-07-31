@@ -9,7 +9,7 @@ import uvicorn
 app = FastAPI()
 logger = LoggerPhone('Logs/logger')
 control = Controller_PhoneNumbers('Data/phones.csv',
-                                  ['Телефон', 'ФИО', 'Описание'],
+                                  ['Фамилия', 'Имя', 'Телефон', 'Описание'],
                                   {'Основное меню': 'Views/index.html'},
                                   TypeSaveFile.CSV_point_comma)
 
@@ -22,9 +22,9 @@ async def root():
     return FileResponse('Views/index.html')
 
 @app.post('/add')
-def form_post(request: Request, val_0: str = Form(...), val_1: str = Form(...), val_2: str = Form(...)):
+def form_post(request: Request, val_0: str = Form(...), val_1: str = Form(...), val_2: str = Form(...), val_3: str = Form(...)):
     logger.write('Пользователь добавил запись')
-    control.model.data.append([val_0, val_1, val_2])
+    control.model.data.append([val_0, val_1, val_2, val_3])
     control.model.save_data()
     control.UpdateIndexForm("Основное меню","Телефонный справочник")
     return FileResponse('Views/index.html')
@@ -40,4 +40,3 @@ def form_delete(request: Request, idx: int = Form(...)):
 if __name__ == '__main__':
     app.debug = True
     uvicorn.run(app, host='0.0.0.0', port=1024)
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
