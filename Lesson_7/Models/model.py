@@ -26,6 +26,11 @@ class Model:
                 for line in file:
                     self.data.append(json.loads(line))
 
+            if self.type_save == TypeSaveFile.Txt:
+                    for line in file:
+                        self.data.append(line.split(';'))
+
+
 
     def save_data(self):
         with open(self.path, "w") as file:
@@ -35,13 +40,15 @@ class Model:
                     (TypeSaveFile.CSV_colon, ':'),
                 ] if e[0] == self.type_save][0]
                 for d in self.data:
-                    file.write(camma.join(d) )
+                    file.write(camma.join(d))
 
             if self.type_save == TypeSaveFile.Json:
                 for d in self.data:
                     file.write(json.dumps(d))
 
-
+            if self.type_save == TypeSaveFile.Txt:
+                for d in self.data:
+                    file.write(';'.join(d))
 
 
 
