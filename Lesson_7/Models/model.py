@@ -17,10 +17,12 @@ class Model:
             if self.path.split('.')[-1] == 'csv':
                 if self.type_save == TypeSaveFile.CSV_point_comma:
                     for line in file:
-                        self.data.append(line.split(';'))
+                        if len(line) > 0 and line != '\n':
+                            self.data.append(line.split(';'))
                 if self.type_save == TypeSaveFile.CSV_colon:
                     for line in file:
-                        self.data.append(line.split(':'))
+                        if len(line) > 0 and line != '\n':
+                            self.data.append(line.split(':'))
 
             if self.type_save == TypeSaveFile.Json:
                 for line in file:
@@ -40,7 +42,8 @@ class Model:
                     (TypeSaveFile.CSV_colon, ':'),
                 ] if e[0] == self.type_save][0]
                 for d in self.data:
-                    file.write(camma.join(d))
+                    if len(d)> 0:
+                        file.write(camma.join(d) +'\n')
 
             if self.type_save == TypeSaveFile.Json:
                 for d in self.data:

@@ -42,6 +42,6 @@ inpt + \
 
 
     def create_table_delete(self, idx):
-        return '<form method="post" action="/delete">'+ \
-         f'<input type="submit" name="idx" value="{idx}">'+\
+        return '<form method="post" action="/delete">' + \
+         f'<input type="submit" name="idx" value="{idx}">' + \
       '</form>'
