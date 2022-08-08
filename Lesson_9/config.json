@@ -1,0 +1,6 @@
+{
+  "TOKEN": "TOKEN",
+  "db_data": "./Data/data.json",
+  "db_identity": "./Data/identity.json",
+  "logger_path": "./Logs/"
+}
