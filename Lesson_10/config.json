@@ -1,0 +1,6 @@
+{
+  "TOKEN": "5437558310:AAHsshvBXwllODktCsxLaeAH9rsd928b4Y4",
+  "db_data": "./Data/words.txt",
+  "db_state": "./Data/state.txt",
+  "logger_path": "./Logs/"
+}
