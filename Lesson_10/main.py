@@ -132,7 +132,7 @@ def main(update, context):
                 save_state(state)
                 update.message.reply_text(f'Вы выйграли ', )
                 return ConversationHandler.END
-            update.message.reply_text(f'Ход аппанента: ', )
+            update.message.reply_text(f'Ход оппонента: ', )
             pos = g2_pos - 28
             steps = [e for e in range(0 if pos == 0 else pos,  g2_pos)]
             st = [state[e] if e in state.keys() else 0 for e in range(0 if pos == 0 else pos,  g2_pos)]
@@ -152,7 +152,7 @@ def main(update, context):
                     else:
                         state[e] = -20
                 save_state(state)
-                update.message.reply_text(f'Опонент выйграл ', )
+                update.message.reply_text(f'Оппонент выйграл ', )
                 return ConversationHandler.END
 
             update.message.reply_text(f'Ход игрока: ', )
