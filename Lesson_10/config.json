@@ -1,0 +1,6 @@
+{
+  "TOKEN": "TOKEN",
+  "db_data": "./Data/words.txt",
+  "db_state": "./Data/state.txt",
+  "logger_path": "./Logs/"
+}
